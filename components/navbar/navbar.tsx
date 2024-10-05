@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="w-full mx-auto px-4 pt-4 md:px-[18px] md:pt-[18px] ">
       <div className="flex justify-between items-center px-[18px] md:px-6 rounded-[12px] container mx-auto h-[84px] bg-gradient-to-tr from-primary-green from-0% via-primary-green/25 via-36% to-primary-green to-100% backdrop-blur-sm">
         <div onClick={() => scrollToSection("hero")}>
-          <Logo className="" />
+          <Logo className="w-[210px] md:w-full h-auto" />
         </div>
         <div className="lg:flex items-center gap-[29px] hidden">
           <ul className="flex items-center gap-16 text-white">
