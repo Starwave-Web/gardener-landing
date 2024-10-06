@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
   	extend: {
 		backgroundImage: {
-			"hero-bg": "url('/background-images/hero-bg.png')"
+			"hero-bg": "url('/background-images/hero-bg.png')",
+			"about-us-bg": "url('/background-images/about-us-bg.png')"
 		},
   		colors: {
   			background: 'var(--background)',

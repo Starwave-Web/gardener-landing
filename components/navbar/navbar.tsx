@@ -32,7 +32,7 @@ const Navbar = () => {
               </p>
             </li>
           </ul>
-          <Button onClick={() => scrollToSection("contactUs")}>
+          <Button size="sm" onClick={() => scrollToSection("contactUs")}>
             Ajánlatkérés
           </Button>
         </div>
