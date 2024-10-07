@@ -1,8 +1,9 @@
+import { SECTIONS } from "@/constants";
 import GetQuoteButton from "../ui/get-quote-button";
 
 const Hero = () => {
   return (
-    <section className="bg-hero-bg  min-h-[647px] md:min-h-[840px] -mt-[102px]">
+    <section id={SECTIONS.HERO} className="bg-hero-bg  min-h-[647px] md:min-h-[840px] -mt-[102px]">
       <div className="bg-gradient-to-b from-[#123616]/60 to-[#277B2F]/5 min-h-[647px] md:min-h-[840px]">
         <div className="h-[102px]" />
         <div className="container mx-auto">

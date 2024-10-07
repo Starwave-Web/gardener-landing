@@ -6,6 +6,7 @@ import ServiceImageOne from "@/assets/images/service-image-1.png";
 import ServiceImageTwo from "@/assets/images/service-image-2.png";
 import ServiceImageThree from "@/assets/images/service-image-3.png";
 import GetQuoteButton from "../ui/get-quote-button";
+import { SECTIONS } from "@/constants";
 
 const serviceItems = [
   {
@@ -33,7 +34,7 @@ const serviceItems = [
 
 const Services = () => {
   return (
-    <section className="w-full">
+    <section id={SECTIONS.SERVICES} className="w-full scroll-m-32">
       <div className="container mx-auto pt-7 pb-[72px] md:py-[72px]">
         <div className="w-full flex flex-col gap-7 md:gap-[50px]">
           <SectionHeader id="services" title="Szolgáltatások" />

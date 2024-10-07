@@ -4,6 +4,7 @@ import Peter from "@/assets/images/peter.jpg"
 import Erika from "@/assets/images/erika.jpg"
 import Leslie from "@/assets/images/laszlo.jpg"
 import TestimonialsCard from "../ui/testimonials-card"
+import { SECTIONS } from "@/constants"
 
 
 const testimonials = [{
@@ -35,7 +36,7 @@ const testimonials = [{
 
 const Testiomonials = () => {
   return (
-    <section className='w-full'>
+    <section id={SECTIONS.TESTIMONIALS} className='w-full scroll-m-32'>
       <div className='container mx-auto my-7 md:my-[60px] flex flex-col gap-10 md:gap-[70px]'>
         <SectionHeader title="Visszajelzések"/>
         <div className="flex flex-wrap gap-4 md:gap-[45px] justify-center px-4">

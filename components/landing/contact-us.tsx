@@ -1,10 +1,11 @@
+import { SECTIONS } from "@/constants";
 import { EnvelopeIcon, LocationIcon, PhoneIcon } from "../icons/contact-us";
 import ContactUsForm from "../ui/contact-us-form";
 import SectionHeader from "../ui/section-header";
 
 const ContactUs = () => {
   return (
-    <section className="w-full">
+    <section id={SECTIONS.CONTACT_US} className="w-full scroll-m-32">
       <div className="container mx-auto flex flex-col gap-9 md:gap-[70px] mt-0 mb-12 md:mb-[81px] md:mt-[50px]">
         <SectionHeader title="Kapcsolat" />
         <div className="flex flex-col-reverse md:flex-row px-4 gap-7 md:gap-[90px]">
