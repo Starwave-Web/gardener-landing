@@ -4,12 +4,13 @@ import Gardener from "@/assets/images/gardener.png";
 import GetQuoteButton from "../ui/get-quote-button";
 import Image from "next/image";
 import { Logo } from "../icons/navbar";
+import { SECTIONS } from "@/constants";
 
 
 
 const AboutUs = () => {
   return (
-    <section className="w-full">
+    <section id={SECTIONS.ABOUT_US} className="w-full scroll-m-32">
       <div className="container mx-auto mb-[50px]">
         <SectionHeader id="aboutus" title="Rólunk" />
       </div>

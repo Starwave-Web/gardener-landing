@@ -4,6 +4,7 @@ import { scrollToSection } from "@/lib/utils";
 import { Button } from "../ui/button";
 import CloseIcon, { HamburgerMenu, Logo } from "@/components/icons/navbar";
 import { useState } from "react";
+import { SECTIONS } from "@/constants";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -15,24 +16,24 @@ const Navbar = () => {
   return (
     <nav className="w-full sticky top-0 mx-auto px-4 pt-4 md:px-[18px] md:pt-[18px] z-10">
       <div className="flex justify-between items-center px-[18px] md:px-6 rounded-[12px] container mx-auto h-[84px] bg-gradient-to-tr from-primary-green from-0% via-primary-green/25 via-36% to-primary-green to-100% backdrop-blur-sm">
-        <div onClick={() => scrollToSection("hero")}>
+        <div onClick={() => scrollToSection(SECTIONS.HERO)}>
           <Logo className="w-[210px] md:w-full h-auto" />
         </div>
         <div className="lg:flex items-center gap-[29px] hidden">
           <ul className="flex items-center gap-16 text-white">
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection("services")}>Szolgáltatások</p>
+              <p onClick={() => scrollToSection(SECTIONS.SERVICES)}>Szolgáltatások</p>
             </li>
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection("aboutUs")}>Rólunk</p>
+              <p onClick={() => scrollToSection(SECTIONS.ABOUT_US)}>Rólunk</p>
             </li>
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection("testimonials")}>
+              <p onClick={() => scrollToSection(SECTIONS.TESTIMONIALS)}>
                 Visszajelzések
               </p>
             </li>
           </ul>
-          <Button size="sm" onClick={() => scrollToSection("contactUs")}>
+          <Button size="sm" onClick={() => scrollToSection(SECTIONS.CONTACT_US)}>
             Ajánlatkérés
           </Button>
         </div>
@@ -50,20 +51,25 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="flex flex-col gap-8 text-p text-white">
+            <li className="cursor-pointer">
+                <p onClick={() => scrollToSectionMobile(SECTIONS.HERO)}>
+                  Kezdőlap
+                </p>
+              </li>
               <li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile("services")}>
+                <p onClick={() => scrollToSectionMobile(SECTIONS.SERVICES)}>
                   Szolgáltatások
                 </p>
               </li>
               <li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile("aboutUs")}>Rólunk</p>
+                <p onClick={() => scrollToSectionMobile(SECTIONS.ABOUT_US)}>Rólunk</p>
               </li>
               <li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile("testimonials")}>
+                <p onClick={() => scrollToSectionMobile(SECTIONS.TESTIMONIALS)}>
                   Visszajelzések
                 </p>
               </li><li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile("contactUs")}>
+                <p onClick={() => scrollToSectionMobile(SECTIONS.CONTACT_US)}>
                 Ajánlatkérés
                 </p>
               </li>
