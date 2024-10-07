@@ -5,9 +5,9 @@ import GetQuoteButton from "../ui/get-quote-button";
 import Image from "next/image";
 import { Logo } from "../icons/navbar";
 
-type Props = {};
 
-const AboutUs = (props: Props) => {
+
+const AboutUs = () => {
   return (
     <section className="w-full">
       <div className="container mx-auto mb-[50px]">
@@ -16,7 +16,7 @@ const AboutUs = (props: Props) => {
       <div className="bg-about-us-bg bg-cover relative">
         <div className="container mx-auto flex flex-col px-4 py-7 md:pt-[155px] pb-[49px] gap-7 md:gap-[77px] ">
           <div className="flex items-center gap-7 md:gap-[108px]  flex-col-reverse lg:flex-row ">
-            <div className="flex flex-col gap-[2px] md:gap-11 text-about-us text-white">
+            <div className="flex flex-col gap-[2px] md:gap-11 text-about-us text-white lg:w-1/2">
               <p>
                 A Harmatcsepp csapata 10 éve foglalkozik családi és társasházak
                 kertjeinek tervezésével és megépítésével. Munkánk során
@@ -35,7 +35,7 @@ const AboutUs = (props: Props) => {
               </p>
             </div>
             <Image
-              className="rounded-[30px] lg:self-start xl:self-center"
+              className=" lg:w-1/2 rounded-[30px] lg:self-start xl:self-center"
               src={Gardener}
               alt="about-us-image"
             />

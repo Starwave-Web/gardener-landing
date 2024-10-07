@@ -165,6 +165,14 @@ const config: Config = {
 				  fontWeight: "500",
 				},
 			],
+			"footer": [
+				"1.125rem",
+				{
+				  lineHeight: "1.6875rem",
+				  letterSpacing: "0",
+				  fontWeight: "400",
+				},
+			],
 			
 		},
   	}

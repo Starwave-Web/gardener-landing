@@ -13,7 +13,7 @@ const Navbar = () => {
     scrollToSection(section);
   };
   return (
-    <nav className="w-full mx-auto px-4 pt-4 md:px-[18px] md:pt-[18px] ">
+    <nav className="w-full sticky top-0 mx-auto px-4 pt-4 md:px-[18px] md:pt-[18px] z-10">
       <div className="flex justify-between items-center px-[18px] md:px-6 rounded-[12px] container mx-auto h-[84px] bg-gradient-to-tr from-primary-green from-0% via-primary-green/25 via-36% to-primary-green to-100% backdrop-blur-sm">
         <div onClick={() => scrollToSection("hero")}>
           <Logo className="w-[210px] md:w-full h-auto" />
@@ -42,9 +42,9 @@ const Navbar = () => {
       </div>
       <div
         data-open={open}
-        className="hidden data-[open=true]:flex justify-end w-full h-[120vh] bg-black/25 absolute -top-[60px]"
+        className="hidden data-[open=true]:flex justify-end w-full h-[120vh] bg-black/25 absolute top-0 left-0"
       >
-        <div className="w-1/2 h-[120vh] bg-footer-green px-[22px] py-[29px] flex flex-col gap-11">
+        <div className="w-1/2 h-[120vh] bg-footer-green px-[22px] py-[px] flex flex-col gap-11">
           <div className="self-end mt-14" onClick={() => setOpen(!open)}>
             <CloseIcon />
           </div>
