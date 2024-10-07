@@ -10,12 +10,20 @@ const buttonVariants = cva("rounded-[35px] bg-white text-secondary-green text-[1
   variants: {
     variant: {
       default: "shadow-lg",
+      destructive:
+      "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
       outline:
         "text-secondary-button text-quartary-green border-[3px] border-quartary-green bg-white hover:bg-quartary-green hover:text-white",
+        secondary:
+          "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
+        ghost: "hover:bg-accent hover:text-accent-foreground",
+        link: "text-primary underline-offset-4 hover:underline",
     },
     size: {
       default: "py-[21px] px-[30px]",
       sm: "py-[11px] px-[35px]",
+      lg: "h-10 rounded-md px-8",
+      icon: "h-9 w-9",
     },
   },
   defaultVariants: {
