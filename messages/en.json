@@ -1,1 +1,87 @@
-{}
+{
+    "navBar": {
+      "home": "Home",
+      "services": "Services",
+      "aboutUs": "About Us",
+      "testimonials": "Testimonials",
+      "getQuoteBtn": "Get a Quote"
+    },
+    "heroSection": {
+      "subtitle1": "Quality landscaping across the",
+      "subtitle2": " entire country.",
+      "title1": "Landscaping,",
+      "title2": " site preparation",
+      "getQuoteBtn": "Get a Quote"
+    },
+    "servicesSection": {
+      "title": "Services",
+      "serviceItems": [
+        {
+          "title": "Artificial Grass Installation",
+          "description": "We install high-quality, durable artificial grass that creates a natural look, requires minimal maintenance, and ensures a beautiful green garden all year round."
+        },
+        {
+          "title": "Irrigation System Installation",
+          "description": "Our automatic irrigation systems save you time, water, and energy, keeping your garden lush and healthy."
+        },
+        {
+          "title": "Landscaping and Garden Maintenance",
+          "description": "Professional landscaping solutions for the perfect green oasis, along with comprehensive garden maintenance services to keep your garden neat and flourishing."
+        }
+      ],
+      "getQuoteBtn": "Get a Quote"
+    },
+    "aboutUsSection": {
+      "title": "About Us",
+      "description1": "The Harmatcsepp team has been designing and building family and residential gardens for 10 years. We use only the best materials to guarantee unmatched quality.",
+      "description2": "Our team consists of skilled, experienced, and dedicated professionals who carry out their tasks with the utmost care.",
+      "description3": "We understand how refreshing it is to relax in a beautiful, radiant garden after a long day. Our goal is to provide this feeling to our clients with every garden we work on.",
+      "getQuoteBtn": "Get a Quote"
+    },
+    "testimonialsSection": {
+      "title": "Testimonials",
+      "testimonials": [
+        {
+          "name": "Anna Kovács",
+          "description": "They created the garden of my dreams! Their professional attitude and creativity impressed me. They paid attention to every detail, from selecting plants to the final design of the garden. Highly recommend!"
+        },
+        {
+          "name": "Péter Nagy",
+          "description": "The DewDrop Garden Design team did an amazing job on our garden. They took all our wishes into account, and we ended up with a stunning result. We still admire their work and are very grateful!"
+        },
+        {
+          "name": "Erika Szabó",
+          "description": "Their expertise and dedication are unparalleled. Our garden is now beautiful and well-maintained, thriving in every season. Thank you to the team for their fantastic work and kind attitude!"
+        },
+        {
+          "name": "László Tóth",
+          "description": "I am very satisfied with the company's services. They did precise and professional work, and now our garden looks like it came straight out of a magazine. I highly recommend them!"
+        }
+      ]
+    },
+    "contactUsSection": {
+      "title": "Contact",
+      "contactForm": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "sendBtn": "Send"
+      },
+      "contactInfo": {
+        "email": "info@dewdrop.hu",
+        "phoneNumber": "+36 30 609 0155",
+        "address": "2440, Százhalombatta Tél Street 41."
+      }
+    },
+    "footer": {
+      "navigation": {
+        "services": "Services",
+        "aboutUs": "About Us",
+        "gallery": "Gallery",
+        "getQuote": "Get a Quote"
+      },
+      "allRightsReserved": "© 2024 DewDrop Garden Design. All rights reserved.",
+      "termsAndConditions": "Privacy Policy"
+    }
+  }
+  

@@ -2,9 +2,9 @@ import React from "react";
 import SectionHeader from "../ui/section-header";
 import { ServiceCarousel } from "../ui/services-carousel";
 
-import ServiceImageOne from "@/assets/images/service-image-1.png";
-import ServiceImageTwo from "@/assets/images/service-image-2.png";
-import ServiceImageThree from "@/assets/images/service-image-3.png";
+import ServiceImageOne from "@/src/assets/images/service-image-1.png";
+import ServiceImageTwo from "@/src/assets/images/service-image-2.png";
+import ServiceImageThree from "@/src/assets/images/service-image-3.png";
 import GetQuoteButton from "../ui/get-quote-button";
 import { SECTIONS } from "@/src/constants";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../ui/section-header";
-import Gardener from "@/assets/images/gardener.png";
+import Gardener from "@/src/assets/images/gardener.png";
 import GetQuoteButton from "../ui/get-quote-button";
 import Image from "next/image";
 import { Logo } from "../icons/navbar";

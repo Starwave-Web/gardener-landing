@@ -1,8 +1,8 @@
 import SectionHeader from "../ui/section-header"
-import Anna from "@/assets/images/anna.jpg"
-import Peter from "@/assets/images/peter.jpg"
-import Erika from "@/assets/images/erika.jpg"
-import Leslie from "@/assets/images/laszlo.jpg"
+import Anna from "@/src/assets/images/anna.jpg"
+import Peter from "@/src/assets/images/peter.jpg"
+import Erika from "@/src/assets/images/erika.jpg"
+import Leslie from "@/src/assets/images/laszlo.jpg"
 import TestimonialsCard from "../ui/testimonials-card"
 import { SECTIONS } from "@/src/constants"
 
