@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+
 import "../globals.css";
 import { Poppins } from "next/font/google";
 import Footer from "@/src/components/footer/footer";
 import Navbar from "@/src/components/navbar/navbar";
 import { Toaster } from "@/src/components/ui/toaster";
 import { routing } from "@/src/i18n/routing";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import {NextIntlClientProvider} from 'next-intl';
 
@@ -14,10 +14,15 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Harmatcsepp Kerttervezés",
-  description: "Minőségi kertépítés az ország egész területén.",
-};
+//@ts-expect-error locale can be any
+export async function generateMetadata({params: {locale}}) {
+  const t = await getTranslations({locale, namespace: 'metadata'});
+ 
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
 
 export default async function RootLayout({
   children,

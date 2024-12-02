@@ -1,4 +1,8 @@
-{
+{ 
+  "metadata": {
+    "title": "Harmatcsepp Kerttervezés",
+    "description":"Minőségi kertépítés az ország egész területén."
+  },
   "navBar": {
     "home": "Kezdőlap",
     "services": "Szolgáltatások",
@@ -77,7 +81,7 @@
     "navigation": {
       "services": "Szolgáltatások",
       "aboutUs": "Rólunk",
-      "gallery": "Galéria",
+      "testimonials": "Visszajelzések",
       "getQuote": "Ajánlatkérés"
     },
     "allRightsReserved": "© 2024 Harmatcsepp Kerttervezés. Minden jog fentartva.",

@@ -15,6 +15,7 @@ import { Input } from "./input";
 import { Button } from "./button";
 import { Textarea } from "./textarea";
 import { useToast } from "@/src/hooks/use-toast";
+import { useTranslations } from "next-intl";
 
 export enum SUBJECT {
   QUESTION = "question",
@@ -41,6 +42,8 @@ const formSchema = z.object({
 });
 
 const ContactUsForm = () => {
+  const t = useTranslations('contactUsSection.contactForm')
+
   const { toast } = useToast();
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -126,12 +129,12 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem >
               <FormLabel className="text-contact-us text-tertiary-green">
-                Név
+                {t('name')}
               </FormLabel>
               <FormControl>
                 <Input
                   className="text-contact-us !placeholder-white py-[18px] px-[20px] rounded-[28px] h-[56px] bg-quartary-green"
-                  placeholder="Név"
+                  placeholder={t('name')}
                   {...field}
                 />
               </FormControl>
@@ -145,12 +148,12 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-contact-us text-tertiary-green">
-                Email
+              {t('email')}
               </FormLabel>
               <FormControl>
                 <Input
                   className="text-contact-us !placeholder-white py-[18px] px-[20px] rounded-[28px] h-[56px] bg-quartary-green"
-                  placeholder="Email"
+                  placeholder={t('email')}
                   {...field}
                 />
               </FormControl>
@@ -164,12 +167,12 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-contact-us text-tertiary-green">
-                Üzenet
+              {t('message')}
               </FormLabel>
               <FormControl>
                 <Textarea
                  className="text-contact-us !placeholder-white py-[18px] px-[20px] rounded-[28px] h-[160px] bg-quartary-green"
-                  placeholder="Üzenet"
+                  placeholder={t('message')}
                   {...field}
                 />
               </FormControl>
@@ -178,7 +181,7 @@ const ContactUsForm = () => {
           )}
         />
         <Button className="w-fit self-center" variant="outline" type="submit">
-          Küldés
+        {t('sendBtn')}
         </Button>
       </form>
     </Form>
