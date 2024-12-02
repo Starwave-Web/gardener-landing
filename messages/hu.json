@@ -1,0 +1,90 @@
+{ 
+  "metadata": {
+    "title": "Harmatcsepp Kerttervezés",
+    "description":"Minőségi kertépítés az ország egész területén."
+  },
+  "navBar": {
+    "home": "Kezdőlap",
+    "services": "Szolgáltatások",
+    "aboutUs": "Rólunk",
+    "testimonials": "Visszajelzések",
+    "getQuoteBtn": "Ajánlatkérés"
+  },
+  "heroSection": {
+    "subtitle1": "Minőségi kertépítés az ország",
+    "subtitle2": " egész területén.",
+    "title1": "Kertépítés,",
+    "title2": " tereprendezés",
+    "getQuoteBtn": "Ajánlatkérés"
+  },
+  "servicesSection": {
+    "title": "Szolgáltatások",
+    "serviceItems": [
+      {
+        "title": "Műfű telepítés",
+        "description": "Kiváló minőségű, tartós műfüvet telepítünk, amely természetes hatást kelt, minimális karbantartást igényel, és egész évben gyönyörű zöld kertet biztosít."
+      },
+      {
+        "title": "Öntözőrendszer telepítés",
+        "description": "Automata öntözőrendszereinkkel időt, vizet és energiát takaríthatsz meg, így a kerted mindig üde és egészséges marad."
+      },
+      {
+        "title": "Kertépítés, kertgondozás",
+        "description": "Professzionális kertépítési megoldások a tökéletes zöld oázisért, valamint átfogó kertgondozási szolgáltatások, hogy kerted mindig rendezett és virágzó legyen."
+      }
+    ],
+    "getQuoteBtn": "Ajánlatkérés"
+  },
+  "aboutUsSection": {
+    "title": "Rólunk",
+    "description1": "A Harmatcsepp csapata 10 éve foglalkozik családi és társasházakkertjeinek tervezésével és megépítésével. Munkánk során kizárólag a legjobb alapanyagokat használjuk fel, így garantálható az páratlan minőség.",
+    "description2": "Munkatársaink felkészült, tapasztalt és elhivatott szakemberekből állnak, akik maximális odafigyeléssel végzik a rájuk bízott munkát.",
+    "description3": "Tudjuk milyen egy nehéz nap után otthon megpihenni egy gyönyörű, ragyogó kertben. Ezt az érzést szeretnénk átadni a megbízóinknak minden általunk kezelt kerttel.",
+    "getQuoteBtn": "Ajánlatkérés"
+  },
+  "testimonialsSection": {
+    "title": "Visszajelzések",
+    "testimonials": [
+      {
+        "name": "Kovács Anna",
+        "description": "Álmaim kertjét hozták létre! Profi hozzáállásuk és kreativitásuk lenyűgözött. Minden részletre figyeltek, a növények kiválasztásától a kert végső kialakításáig. Mindenkinek ajánlom őket!"
+      },
+      {
+        "name": "Nagy Péter",
+        "description": "A Harmatcsepp Kerttervező csapata fantasztikus munkát végzett a kertünkön. Minden kívánságunkat figyelembe vették, és csodálatos végeredményt kaptunk. Azóta is gyönyörködünk a munkájukban, és nagyon hálásak vagyunk!"
+      },
+      {
+        "name": "Szabó Erika",
+        "description": "Szakértelmük és elhivatottságuk példátlan. A kertünk most gyönyörű és rendezett, minden évszakban pompázik. Köszönöm a csapatnak a fantasztikus munkát és a kedves hozzáállást!"
+      },
+      {
+        "name": "Tóth László",
+        "description": "Nagyon elégedett vagyok a cég szolgáltatásaival. Precíz és profi munkát végeztek, és a kertünk most olyan, mintha egy magazinból lépett volna ki. Mindenkinek csak ajánlani tudom őket!"
+      }
+    ]
+  },
+  "contactUsSection": {
+    "title": "Kapcsolat",
+    "contactForm": {
+      "name": "Név",
+      "email": "Email",
+      "message": "Üzenet",
+      "sendBtn": "Küldés"
+    },
+    "contactInfo": {
+      "email": "info@harmatcsepp-kert.hu",
+      "phoneNumber": "+36 30 609 0155",
+      "address": "2440, Százhalombatta Tél utca 41."
+    }
+  },
+  "footer": {
+    "navigation": {
+      "services": "Szolgáltatások",
+      "aboutUs": "Rólunk",
+      "testimonials": "Visszajelzések",
+      "getQuote": "Ajánlatkérés"
+    },
+    "allRightsReserved": "© 2024 Harmatcsepp Kerttervezés. Minden jog fentartva.",
+    "termsAndConditions": "Adatkezelési szabályzat"
+  }
+}
